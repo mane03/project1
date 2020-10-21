@@ -1,0 +1,17 @@
+.faq {
+	&__title {
+		margin-bottom: 50px;
+		font-family: $font-family-mardoto;
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 58px;
+		letter-spacing: 0.32px;
+		text-align: center;
+		color: $color-blueZodiac;
+
+		@media only screen and (max-width: 576px) {
+			font-size: 31px;
+			line-height: 42px;
+		}
+	}
+}

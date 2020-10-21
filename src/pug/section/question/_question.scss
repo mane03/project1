@@ -1,0 +1,92 @@
+.question {
+	margin: 15px 0;
+	border-radius: 10px;
+	background: $color-selago;
+
+	&__block {
+		display: flex;
+		align-items: center;
+		padding: 0;
+		height: 107px;
+		cursor: pointer;
+
+		@media only screen and (max-width: 576px) {
+			height: 125px;
+		}
+	}
+
+	&__title {
+		padding: 13px 71px 13px 32px;
+		font-family: $font-family-mardoto-bold;
+		font-size: 18px;
+		line-height: 27px;
+		letter-spacing: 0.32px;
+		color: $color-blueZodiac;
+
+		@media only screen and (max-width: 768px) {
+			padding: 13px 85px 13px 32px;
+		}
+
+		@media only screen and (max-width: 576px) {
+			font-size: 20px;
+			line-height: 25px;
+		}
+
+		@media only screen and (max-width: 455px) {
+			font-size: 16px;
+		}
+
+		@media only screen and (max-width: 400px) {
+			padding: 13px 50px 13px 22px;
+			font-size: 14px;
+		}
+	}
+
+	&__arrow {
+		position: absolute;
+		right: 40px;
+		top: 56px;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		border-bottom: 2px solid $color-black;
+		border-left: 2px solid $color-black;
+		width: 15px;
+		height: 14px;
+		background: 0 0;
+		transform: rotate(-45deg);
+		transition: all 0.3s ease-in-out;
+	}
+
+	&__answer {
+		display: none;
+		margin-top: 0;
+		margin-bottom: 20px;
+		padding-right: 45px;
+		padding-bottom: 24px;
+		padding-left: 32px;
+		font-family: $font-family-mardoto-light;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.32px;
+		color: $color-black;
+
+		@media only screen and (max-width: 480px) {
+			margin-bottom: 30px;
+			padding-right: 30px;
+			padding-left: 22px;
+		}
+	}
+
+	&__expnaded {
+		border-radius: 10px;
+		height: 265px;
+		background: $color-selago;
+		transition: all 0.3s ease-in-out;
+	}
+
+	&__rotated {
+		top: 65px;
+		transform: rotate(-224deg);
+	}
+}

@@ -30,7 +30,6 @@
   "homepage": "https://github.com/CodeTime-13-08-2020/course-frontend.git/#readme",
   "dependencies": {
     "babel-eslint": "^10.1.0",
-    "bootstrap": "^4.5.3",
     "browser-sync": "^2.26.12",
     "del": "^5.1.0",
     "eslint": "^7.9.0",
@@ -80,7 +79,7 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --color --fix",
+    "a.js": "eslint --color --fix",
     "*.scss": "stylelint --fix --color --config ./.stylelintrc",
     "*.pug": "pug-lint"
   }

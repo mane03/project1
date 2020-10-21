@@ -1,0 +1,259 @@
+.program {
+	padding: 40px;
+	width: 100%;
+
+	&__title {
+		margin: 0;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 48px;
+		line-height: 58px;
+		text-align: center;
+		color: #10233e;
+
+		@media (max-width: 768px) {
+			font-size: 38px;
+			line-height: 48px;
+		}
+
+		@media (max-width: 576px) {
+			font-size: 27px;
+		}
+
+		@media (max-width: 376px) {
+			font-size: 25px;
+		}
+	}
+
+	&__desc {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 36px;
+		line-height: 54px;
+		text-align: center;
+		color: #10233e;
+
+		@media (max-width: 992px) {
+			font-size: 25px;
+		}
+
+		@media (max-width: 768px) {
+			font-size: 21px;
+			line-height: 41px;
+		}
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		list-style-type: none;
+		margin-top: 0;
+		margin-bottom: 80px;
+
+		@media (max-width: 576px) {
+			margin-bottom: 40px;
+		}
+
+		@media (max-width: 395px) {
+			display: none;
+		}
+	}
+
+	&__item {
+		font-weight: 600;
+		font-style: normal;
+		font-size: 18px;
+		line-height: 27px;
+		color: #10233e;
+
+		@media (max-width: 992px) {
+			font-size: 13px;
+		}
+
+		@media (max-width: 570px) {
+			font-size: 10px;
+		}
+	}
+}
+
+.accordion {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	&__item {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-radius: 20px;
+		width: 100%;
+		max-width: 580px;
+		box-shadow: 10px 15px 60px rgba(131, 131, 133, 0.25);
+		background: #fff;
+		cursor: pointer;
+
+		@media (max-width: 992px) {
+			max-width: 100%;
+		}
+	}
+
+	&__block {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 30px 50px;
+
+		@media (max-width: 1360px) {
+			padding-right: 40px;
+			padding-left: 40px;
+		}
+
+		@media (max-width: 471px) {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+
+		@media (max-width: 360px) {
+			padding-right: 25px;
+			padding-left: 25px;
+		}
+	}
+
+	&__num {
+		display: flex;
+		align-items: center;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 16px;
+		line-height: 24px;
+		color: #60738e;
+
+		@media (max-width: 471px) {
+			font-size: 14px;
+		}
+
+		@media (max-width: 407px) {
+			font-size: 11px;
+		}
+	}
+
+	&__lesson {
+		margin-left: 10px;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 16px;
+		line-height: 24px;
+		color: #7427e6;
+
+		@media (max-width: 407px) {
+			font-size: 13px;
+		}
+
+		@media (max-width: 350px) {
+			font-size: 9px;
+		}
+	}
+
+	&__title {
+		margin-top: 30px;
+		font-weight: 500;
+		font-style: normal;
+		font-size: 24px;
+		line-height: 36px;
+		color: #10233e;
+
+		@media (max-width: 1360px) {
+			font-size: 20px;
+		}
+
+		@media (max-width: 576px) {
+			margin-top: 20px;
+		}
+
+		@media (max-width: 407px) {
+			font-size: 16px;
+		}
+	}
+
+	&__close {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		min-width: 50px;
+		font-weight: 100;
+		font-size: 40px;
+		line-height: 0;
+		color: #fff;
+		background: #7427e6;
+		transform: translateY(0) rotate(45deg);
+
+		&.open {
+			border: 1px solid #7427e6;
+			color: #7427e6;
+			background: none;
+			transform: rotate(0deg);
+		}
+
+		@media (max-width: 407px) {
+			width: 40px;
+			height: 40px;
+			min-width: 40px;
+		}
+	}
+
+	&__desc {
+		display: flex;
+		align-items: center;
+		margin: 0;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 24px;
+		color: #10233e;
+
+		&::before {
+			content: "";
+			display: inline-block;
+			margin-right: 7px;
+			border-radius: 50%;
+			width: 5px;
+			height: 5px;
+			min-width: 5px;
+			background: #858484;
+		}
+
+		@media (max-width: 400px) {
+			font-size: 14px;
+		}
+	}
+
+	&__open {
+		display: none;
+		align-items: center;
+		overflow: hidden;
+		padding: 0 50px 40px;
+
+		@media (max-width: 1360px) {
+			padding-right: 40px;
+			padding-left: 40px;
+		}
+
+		@media (max-width: 471px) {
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+
+		@media (max-width: 360px) {
+			padding-right: 25px;
+			padding-left: 25px;
+		}
+	}
+
+	@media (max-width: 992px) {
+		justify-content: center;
+	}
+}
