@@ -1,22 +1,21 @@
 .container-fluid.header
     .header__row
-        a.header__logo(href="#") CodeTime
+        a.header__logo(href='#') CodeTime
         ul.header__nav.nav
             li.nav__item
-                a.nav__link(href="#") Նախագծի մասին
+                a.nav__link(href='#') Նախագծի մասին
             li.nav__item
-                a.nav__link(href="#") Դասընթացներ
+                a.nav__link(href='#') Դասընթացներ
             li.nav__item
-                a.nav__link(href="#") Կարծիքներ
+                a.nav__link(href='#') Կարծիքներ
             li.nav__item
-                a.nav__link(href="#") Կոնտակտներ
+                a.nav__link(href='#') Կոնտակտներ
         .header__btn-group
-            a.header__btn.btn(href="#") Կոնտակտներ
-            +svg('icon-phone').nav__icon
+            a.header__btn.btn(href='#') Կոնտակտներ
             a.header__phone(href="tel:+374 55 751 777") +374 55 751 777
     .container.header__content.content
         .row
-            .col-xl-6
+            .col-xl-6.col-lg-7
                 ul.content__row
                     +svg('icon-book').content__icon
                     li.content__item Դասընթաց սկսնակների համար
@@ -29,8 +28,8 @@
                     li.content__desc 10 % տեսական և 90 % գործնական նյութ, հիմնված միայն ռեալ նախագծերի վրա
                     li.content__desc Անհատական մոտեցում յուրաքանչյուր ուսանողին
                 .content__btn-group
-                    a.content__btn.btn(href="#") Դասընթացի գրանցում
-                    a.content__btn.content__btn--active.btn(href="#") Իմանալ ավելին
+                    a.content__btn.btn(href='#') Դասընթացի գրանցում
+                    a.content__btn.content__btn--hover.btn(href='#') Իմանալ ավելին
                 ul.content__row
                     +svg('icon-calendar').content__icon
                     li.content__item 3 Ամիս
@@ -38,5 +37,5 @@
                     li.content__item Անձնական աշխատանք
                     +svg('icon-gift').content__icon
                     i.content__item Նվերներ
-            .col-xl-6
-                img.content__img(src="img/header_img.png" alt="header_img")
+            .col-xl-6.col-lg-5
+                img.content__img(src='img/header_img.png' alt='header_img')

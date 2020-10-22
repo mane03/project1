@@ -23,24 +23,34 @@
     background: linear-gradient(90deg, $color-robinsEggBlue 0%, $royal-blue 47.61%, $color-purpleheart 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    @media (max-width: 1075px) {
+      font-size: 37px;
+    }
   }
 
   &__btn-group {
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
-
   &__btn {
-    margin-right: 30px;
+    @media (max-width: 1075px) {
+      font-size: 15px;
+    }
   }
 
   &__phone {
     font-family: $font-family-mardoto;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     color: $color-curiousBlue;
+    margin-top: 8px;
+    @media (max-width: 1075px) {
+      font-size: 18px;
+    }
   }
 }
 
@@ -50,8 +60,6 @@
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
-  margin-right: 68px;
-  margin-left: 24px;
   padding: 0;
 
   &__link {
@@ -79,8 +87,8 @@
   }
 
   &__icon {
-    width :30px;
-    height: 30px;
+    width :35px;
+    height: 35px;
     margin-right: 10px;
   }
 
@@ -132,19 +140,25 @@
     margin-top: 30px;
     margin-bottom: 46px;
   }
-  &__btn--active {
+  &__btn--hover {
     color: $color-curiousBlue;
     border: 2px solid $color-curiousBlue;
     box-sizing: border-box;
     border-radius: 26px;
     background: transparent;
     margin-left: 40px;
+    &:hover {
+      background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
+      color: #fff;
+      transition: .5s;
+    }
   }
 
   &__img {
     position: absolute;
     right: 0;
     top: -86px;
+    z-index: -1;
   }
 
 }
