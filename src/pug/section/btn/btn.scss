@@ -2,15 +2,11 @@
 	border-radius: 26px;
 	font-size: 16px;
 	line-height: 24px;
-	text-transform: uppercase;
 	color: #fff;
+	cursor: pointer;
+	padding: 10px 30px;
+	display: inline-flex;
 	background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
-
-	&:hover {
-		border-radius: 26px;
-		box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
-		background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
-	}
 
 	&:active {
 		border-radius: 26px;

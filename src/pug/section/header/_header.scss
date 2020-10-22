@@ -1,0 +1,150 @@
+.header {
+  padding-top: 22px;
+  padding-bottom: 40px;
+
+  &__row {
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px 20px 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__logo {
+    font-family: 'Merienda One', cursive;
+    font-size: 40px;
+    line-height: 40px;
+    background: linear-gradient(90deg, #0EC1CC 0%, #3A75D9 47.61%, #7427E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__btn-group {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__btn {
+    margin-right: 30px;
+  }
+
+  &__phone {
+    font-family: $font-family-mardoto;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-curiousBlue;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-right: 68px;
+  margin-left: 24px;
+  padding: 0;
+
+  &__link {
+    font-family: $font-family-mardoto;
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-blueZodiac;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+  }
+
+}
+
+.content {
+    margin-top: 200px;
+
+  &__row {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    width :30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  &__item {
+    font-family: $font-family-mardoto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-blueZodiac;
+    margin-right: 35px;
+  }
+  &__title {
+    font-family: $font-family-mardoto;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: #10233E;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-family: $font-family-mardoto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #10233E;
+    margin-bottom: 10px;
+  }
+  &__desc {
+    display: flex;
+    align-items: center;
+    font-family: $font-family-mardoto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #10233E;
+    margin-top: 10px;
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #0EC1CC;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+  &__btn-group {
+    margin-top: 30px;
+    margin-bottom: 46px;
+  }
+  &__btn--active {
+    color: #288DD5;
+    border: 2px solid #288DD5;
+    box-sizing: border-box;
+    border-radius: 26px;
+    background: transparent;
+    margin-left: 40px;
+  }
+
+  &__img {
+    position: absolute;
+    right: 0;
+    top: -86px;
+  }
+
+}
