@@ -7,9 +7,4 @@
 	padding: 10px 30px;
 	display: inline-flex;
 	background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
-
-	&:active {
-		border-radius: 26px;
-		background: linear-gradient(90deg, #008f98 0%, #285aaf 47.61%, #5114ac 100%);
-	}
 }

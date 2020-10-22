@@ -18,7 +18,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-beginner {
   background-image: url(../img/sprites.png);
-  background-position: 0px -32px;
+  background-position: 0px -304px;
   width: 64px;
   height: 64px;
 }
@@ -30,19 +30,43 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-design {
   background-image: url(../img/sprites.png);
-  background-position: 0px -106px;
+  background-position: 0px -378px;
   width: 64px;
   height: 64px;
+}
+.icon-hand {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -94px;
+  width: 60px;
+  height: 60px;
 }
 .icon-imac {
   background-image: url(../img/sprites.png);
-  background-position: 0px -180px;
+  background-position: 0px -452px;
   width: 64px;
   height: 64px;
 }
+.icon-money {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -164px;
+  width: 60px;
+  height: 60px;
+}
+.icon-racket {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -234px;
+  width: 60px;
+  height: 60px;
+}
+.icon-voice {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -32px;
+  width: 60px;
+  height: 52px;
+}
 .icon-web {
   background-image: url(../img/sprites.png);
-  background-position: 0px -254px;
+  background-position: 0px -526px;
   width: 64px;
   height: 64px;
 }

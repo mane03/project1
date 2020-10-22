@@ -1,6 +1,6 @@
 .header {
   padding-top: 22px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 
   &__row {
     position: absolute;
@@ -20,7 +20,7 @@
     font-family: 'Merienda One', cursive;
     font-size: 40px;
     line-height: 40px;
-    background: linear-gradient(90deg, #0EC1CC 0%, #3A75D9 47.61%, #7427E6 100%);
+    background: linear-gradient(90deg, $color-robinsEggBlue 0%, $royal-blue 47.61%, $color-purpleheart 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -97,7 +97,7 @@
     font-weight: bold;
     font-size: 64px;
     line-height: 77px;
-    color: #10233E;
+    color: $color-blueZodiac;
     margin-top: 30px;
     margin-bottom: 25px;
   }
@@ -106,7 +106,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    color: #10233E;
+    color: $color-blueZodiac;
     margin-bottom: 10px;
   }
   &__desc {
@@ -116,14 +116,14 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    color: #10233E;
+    color: $color-blueZodiac;
     margin-top: 10px;
     &::before {
       content: "";
       display: inline-block;
       width: 8px;
       height: 8px;
-      background: #0EC1CC;
+      background: $color-robinsEggBlue;
       border-radius: 50%;
       margin-right: 10px;
     }
@@ -133,8 +133,8 @@
     margin-bottom: 46px;
   }
   &__btn--active {
-    color: #288DD5;
-    border: 2px solid #288DD5;
+    color: $color-curiousBlue;
+    border: 2px solid $color-curiousBlue;
     box-sizing: border-box;
     border-radius: 26px;
     background: transparent;
