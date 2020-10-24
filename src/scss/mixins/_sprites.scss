@@ -18,9 +18,21 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-beginner {
   background-image: url(../img/sprites.png);
-  background-position: 0px -304px;
+  background-position: 0px -597px;
   width: 64px;
   height: 64px;
+}
+.icon-calendar {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -377px;
+  width: 60px;
+  height: 63px;
+}
+.icon-chart {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -304px;
+  width: 60px;
+  height: 63px;
 }
 .icon-code {
   background-image: url(../img/sprites.png);
@@ -30,7 +42,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-design {
   background-image: url(../img/sprites.png);
-  background-position: 0px -378px;
+  background-position: 0px -671px;
   width: 64px;
   height: 64px;
 }
@@ -42,7 +54,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-imac {
   background-image: url(../img/sprites.png);
-  background-position: 0px -452px;
+  background-position: 0px -523px;
   width: 64px;
   height: 64px;
 }
@@ -51,6 +63,12 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   background-position: 0px -164px;
   width: 60px;
   height: 60px;
+}
+.icon-pig {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -450px;
+  width: 60px;
+  height: 63px;
 }
 .icon-racket {
   background-image: url(../img/sprites.png);
@@ -66,7 +84,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-web {
   background-image: url(../img/sprites.png);
-  background-position: 0px -526px;
+  background-position: 0px -745px;
   width: 64px;
   height: 64px;
 }

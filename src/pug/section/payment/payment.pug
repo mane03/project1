@@ -1,0 +1,25 @@
+.container-fluid.payment
+    h2.payment__title Վճարման հարմարավետ տարբերակներ
+    .container
+        .row
+            .col-xl-4.col-lg-4.col-md-7
+                .payment__box
+                    +png('pig').payment__icon
+                    h3.payment__subtitle Առանց կանխավճար
+                    p.payment__text Ուսումնառության մեկնարկ առանց նախնական վճարի
+            .col-xl-4.col-lg-4.col-md-7
+                .payment__box
+                    +png('calendar').payment__icon
+                    h3.payment__subtitle Մասնակի վճարում
+                    p.payment__text Վճարեք ուսումնառության համար հարմարավետ մեթոդով
+            .col-xl-4.col-lg-4.col-md-7
+                .payment__box
+                    +png('chart').payment__icon
+                    h3.payment__subtitle Ոչ ամբողջական վճարում
+                    p.payment__text  Վճարումը  կարելի է իրականացնել մաս-մաս
+        .row.payment__buttons
+            .col-xl-8.col-lg-12
+                a.payment__btn.btn(href='#') Ուղղեք Ձեր հարցը վճարման վերաբերյալ
+                a.payment__btn.btn.payment__btn--hover(href='#') Ամրագրել խորհրդատվություն հեռախոսով
+
+

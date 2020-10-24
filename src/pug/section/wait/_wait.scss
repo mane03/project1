@@ -1,6 +1,6 @@
 .wait {
 	&__title {
-		margin-top: 0;
+		margin-top: 50px;
 		margin-bottom: 56px;
 		font-weight: normal;
 		font-style: normal;
@@ -30,7 +30,7 @@
 		align-items: center;
 		justify-content: end;
 		width: 100%;
-		max-width: 255px;
+		max-width: 253px;
 		text-align: center;
 	}
 
@@ -72,7 +72,7 @@
 		line-height: 54px;
 		color: #10233e;
 
-		@media (max-width: 480px) {
+		@media (max-width: 768px) {
 			font-size: 31px;
 		}
 	}
@@ -90,15 +90,7 @@
 	}
 
 	&__btn {
-		display: inline-flex;
-		border-radius: 26px;
-		padding: 10px 30px;
+		margin-top: 30px;
 		font-weight: bold;
-		font-style: normal;
-		font-size: 16px;
-		line-height: 24px;
-		text-align: center;
-		color: #fff;
-		background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
 	}
 }
