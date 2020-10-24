@@ -106,16 +106,18 @@
       </div>
       <div class="container header__content content">
         <div class="row">
-          <div class="col-xl-6 col-lg-7">
+          <div class="col-xl-6 col-lg-7 col-md-12">
             <ul class="content__row">
-              <svg class="content__icon">
-                <use xlink:href="./img/sprites.svg#icon-book"></use>
-              </svg>
-              <li class="content__item">Դասընթաց սկսնակների համար</li>
-              <svg class="content__icon">
-                <use xlink:href="./img/sprites.svg#icon-clock"></use>
-              </svg>
-              <li class="content__item">Հուլիսի 6, 2020թ․</li>
+              <li class="content__item">
+                <svg class="content__icon">
+                  <use xlink:href="./img/sprites.svg#icon-book"></use>
+                </svg>Դասընթաց սկսնակների համար
+              </li>
+              <li class="content__item">
+                <svg class="content__icon">
+                  <use xlink:href="./img/sprites.svg#icon-clock"></use>
+                </svg>Հուլիսի 6, 2020թ
+              </li>
             </ul>
             <h1 class="content__title">Front End developer: code your life</h1>
             <p class="content__text">Յուրացրեք ապագայի ամենապահանջված մասնագիտություններից մեկը և փոխեք Ձեր կյանքի սովորական ընթացքը։</p>
@@ -126,22 +128,23 @@
             </ul>
             <div class="content__btn-group"><a class="content__btn btn" href="#">Դասընթացի գրանցում</a><a class="content__btn content__btn--hover btn" href="#">Իմանալ ավելին</a></div>
             <ul class="content__row">
-              <svg class="content__icon">
-                <use xlink:href="./img/sprites.svg#icon-calendar"></use>
-              </svg>
-              <li class="content__item">3 Ամիս</li>
-              <svg class="content__icon">
-                <use xlink:href="./img/sprites.svg#icon-support"></use>
-              </svg>
-              <li class="content__item">Անձնական աշխատանք</li>
-              <svg class="content__icon">
-                <use xlink:href="./img/sprites.svg#icon-gift"></use>
-              </svg><i class="content__item">Նվերներ</i>
+              <li class="content__item">
+                <svg class="content__icon">
+                  <use xlink:href="./img/sprites.svg#icon-calendar"></use>
+                </svg>3 Ամիս
+              </li>
+              <li class="content__item">
+                <svg class="content__icon">
+                  <use xlink:href="./img/sprites.svg#icon-support"></use>
+                </svg>Անձնական աշխատանք
+              </li><i class="content__item">
+                <svg class="content__icon">
+                  <use xlink:href="./img/sprites.svg#icon-gift"></use>
+                </svg>Նվերներ</i>
             </ul>
           </div>
-          <div class="col-xl-6 col-lg-5"><img class="content__img" src="img/header_img.png" alt="header_img"></div>
         </div>
-      </div>
+      </div><img class="header__img" src="img/header_img.png" alt="header_img">
     </div>
     <div class="container-fluid choose">
       <h2 class="choose__title">Ինչո՞ւ ընտրել FrontEnd</h2>
@@ -174,10 +177,340 @@
         </div>
       </div>
     </div>
-    <!--include  section/wait/wait-->
-    <!--include section/program/program-->
-    <!--include section/lessonsGo/lessonsGo-->
-    <!--include section/faq/faq-->
+    <div class="container wait">
+      <h2 class="wait__title">Մենք սպասում ենք</h2>
+      <div class="row">
+        <div class="col-xl-5 col-lg-7">
+          <div class="wait__block">
+            <div class="wait__item">
+              <div class="wait__icon"><i class="icon icon-beginner"></i>
+              </div>
+              <p class="wait__desc">Սկսնակներին</p>
+            </div>
+            <div class="wait__item">
+              <div class="wait__icon"><i class="icon icon-design"></i>
+              </div>
+              <p class="wait__desc">Digital - մասնագետների</p>
+            </div>
+            <div class="wait__item">
+              <div class="wait__icon"><i class="icon icon-web"></i>
+              </div>
+              <p class="wait__desc">Վեբ-դիզայներների</p>
+            </div>
+            <div class="wait__item">
+              <div class="wait__icon"><i class="icon icon-imac"></i>
+              </div>
+              <p class="wait__desc">UI/UX դիզայներների</p>
+            </div>
+            <div class="wait__item">
+              <div class="wait__icon icon">
+                <svg>
+                  <use xlink:href="./img/sprites.svg#icon-wealth"></use>
+                </svg>
+              </div>
+              <p class="wait__desc">Նրանց, ովքեր ունեն իրենց կյանքը փոխելու մեծ ցանկություն</p>
+            </div>
+            <div class="wait__item">
+              <div class="wait__icon">
+                <svg>
+                  <use xlink:href="./img/sprites.svg#icon-idea"></use>
+                </svg>
+              </div>
+              <p class="wait__desc">Նրանց, ովքեր ուզում են քայլել ժամանակին համընթաց։</p>
+            </div>
+          </div>
+          <div class="wait__info info">
+            <h2 class="info__title">Պետք է արդյո՞ք HTML, CSS- ի հետ աշխատելու փորձ։</h2>
+            <p class="info__text">Դասընթացին մենք յուրացնելու ենք կայքի վյորստկան և մշակումը զրոյից և աստիճանաբար բարձրացնելու ենք Ձեր իմացության մակարդակը։ Ցանկացած տեսակի փորձ, կարող է լինել օգտակար, բայց այն պարտադիր չէ։</p><a class="info__btn" href="#">Գրանցվել</a>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-5">
+          <div class="wait__img"><img class="wait__imgGirl" src="img/wait.png" alt="Girl"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container program">
+      <h2 class="program__title">Ձեր ուսումնառության ծրագիրը</h2>
+      <p class="program__desc">Ուսումնառության ընթացքում Դուք կյուրացնեք</p>
+      <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-sm-12 offset-sm-0">
+          <ul class="program__list">
+            <li class="program__item">HTML5</li>
+            <li class="program__item">CSS3</li>
+            <li class="program__item">CSS3</li>
+            <li class="program__item">HTML5</li>
+            <li class="program__item">CSS3</li>
+            <li class="program__item">CSS3</li>
+            <li class="program__item">HTML5</li>
+            <li class="program__item">CSS3</li>
+            <li class="program__item">CSS3</li>
+            <li class="program__item">HTML5</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6">
+          <div class="program__accordion accordion">
+            <div class="accordion__item">
+              <div class="accordion__block">
+                <div class="accordion__info">
+                  <p class="accordion__num">Բլոկ #1<i class="icon icon-code"></i><span class="accordion__lesson">պարապմունք 1</span>
+                  </p>
+                  <h3 class="accordion__title">Մուտք</h3>
+                </div><span class="accordion__close" aria-hidden="true">×</span>
+              </div>
+              <div class="accordion__open">
+                <p class="accordion__desc">Ծանոթացում դասընթացի և մասնագիտության հետ</p>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__block">
+                <div class="accordion__info">
+                  <p class="accordion__num">Բլոկ #2<i class="icon icon-code"></i><span class="accordion__lesson">պարապմունք 2</span>
+                  </p>
+                  <h3 class="accordion__title">HTML</h3>
+                </div><span class="accordion__close" aria-hidden="true">×</span>
+              </div>
+              <div class="accordion__open">
+                <p class="accordion__desc">Ծանոթացում դասընթացի և մասնագիտության հետ</p>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__block">
+                <div class="accordion__info">
+                  <p class="accordion__num">Բլոկ #3<i class="icon icon-code"></i><span class="accordion__lesson">պարապմունք 3</span>
+                  </p>
+                  <h3 class="accordion__title">CMS</h3>
+                </div><span class="accordion__close" aria-hidden="true">×</span>
+              </div>
+              <div class="accordion__open">
+                <p class="accordion__desc">Ծանոթացում դասընթացի և մասնագիտության հետ</p>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__block">
+                <div class="accordion__info">
+                  <p class="accordion__num">Բլոկ #4<i class="icon icon-code"></i><span class="accordion__lesson">պարապմունք 4</span>
+                  </p>
+                  <h3 class="accordion__title">Responsive и Adaptive</h3>
+                </div><span class="accordion__close" aria-hidden="true">×</span>
+              </div>
+              <div class="accordion__open">
+                <p class="accordion__desc">Ծանոթացում դասընթացի և մասնագիտության հետ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="program__accordion accordion">
+            <div class="accordion__item">
+              <div class="accordion__block">
+                <div class="accordion__info">
+                  <p class="accordion__num">Բլոկ #5<i class="icon icon-code"></i><span class="accordion__lesson">պարապմունք 5</span>
+                  </p>
+                  <h3 class="accordion__title">JavaScript и jQuery</h3>
+                </div><span class="accordion__close" aria-hidden="true">×</span>
+              </div>
+              <div class="accordion__open">
+                <p class="accordion__desc">Ծանոթացում դասընթացի և մասնագիտության հետ</p>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__block">
+                <div class="accordion__info">
+                  <p class="accordion__num">Բլոկ #6<i class="icon icon-code"></i><span class="accordion__lesson">պարապմունք 6</span>
+                  </p>
+                  <h3 class="accordion__title">Հոստինգ և CMS</h3>
+                </div><span class="accordion__close" aria-hidden="true">×</span>
+              </div>
+              <div class="accordion__open">
+                <p class="accordion__desc">Ծանոթացում դասընթացի և մասնագիտության հետ</p>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__block">
+                <div class="accordion__info">
+                  <p class="accordion__num">Բլոկ #7<i class="icon icon-code"></i><span class="accordion__lesson">պարապմունք 7</span>
+                  </p>
+                  <h3 class="accordion__title">Աշխատանք ֆրիլանսում</h3>
+                </div><span class="accordion__close" aria-hidden="true">×</span>
+              </div>
+              <div class="accordion__open">
+                <p class="accordion__desc">Ծանոթացում դասընթացի և մասնագիտության հետ</p>
+              </div>
+            </div>
+            <div class="accordion__item">
+              <div class="accordion__block">
+                <div class="accordion__info">
+                  <p class="accordion__num">Բլոկ #8<i class="icon icon-code"></i><span class="accordion__lesson">պարապմունք 8</span>
+                  </p>
+                  <h3 class="accordion__title">Հայացք ապագային</h3>
+                </div><span class="accordion__close" aria-hidden="true">×</span>
+              </div>
+              <div class="accordion__open">
+                <p class="accordion__desc">Ծանոթացում դասընթացի և մասնագիտության հետ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div class="container lessonsGo">
+      <h1 class="lessonsGo__title">Ինչպե՞ս են ընթանալու դասերը</h1>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">01</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">12 պարապմունք</span>
+              <p class="lessonsGo__text">Կարևորագույն թեմաների մանրամասն ուսումնասիրություն</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">02</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Անհատական մոտեցում</span>
+              <p class="lessonsGo__text">Ստացեք բազմաթիվ անահատական և ինտերակտիվ տնային աշխատանքների օրինակներ</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">03</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Անձնական մենթոր</span>
+              <p class="lessonsGo__text">Նա կուղեցի Ձեզ վյորստկայի ուսումնասիրության բարդ փուլերում։</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">04</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Անսահմանափակ շփում</span>
+              <p class="lessonsGo__text">Հնարավորություն միշտ գտնվելու համախոհների մեջ</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">05</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Ամուր միջավայր</span>
+              <p class="lessonsGo__text">գործընկերներ, մենթորներ և համախոհներ</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">06</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Օգնություն խնդիրներին</span>
+              <p class="lessonsGo__text">Դուք այլևս չեք մնա միայնակ դժվարությունների առաջ</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">07</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Ոչ մի կորուստ</span>
+              <p class="lessonsGo__text">Մենք հետևում ենք Ձեր յուրաքանչյուր քայլին ուսումնառության գործընթացում</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">08</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Ձեր պորտֆոլիոն</span>
+              <p class="lessonsGo__text">Օգնում ենք ստեղծել գրագետ պորտֆոլիո</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">09</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Աճի մոտիվացիա</span>
+              <p class="lessonsGo__text">Դուք կտեսնեք, թե ինչ մոտ է այն, ինչի մասին երազում էիք</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 offset-xl-2 col-lg-6 offset-lg-0 col-12">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">10</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Ռեալ պրակտիկա</span>
+              <p class="lessonsGo__text">Ուսումնառություն հիմնված ռեալ նախագծերի վրա ռեալ հաճախորդների հետ</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 offset-xl-0 col-lg-6 offset-lg-3 col-12 offset-0">
+          <div class="lessonsGo__box">
+            <div class="lessonsGo__number">11</div>
+            <div class="lessonsGo__description"><span class="lessonsGo__name">Ստեղծեք Ձեր երազանքի թիմը</span>
+              <p class="lessonsGo__text">Սովորեք, կիսվեք գիտելիքներով, հետևեք առաջընթացին</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row lessonsGo__row">
+        <div class="col-lg-5 offset-lg-1 col-12 offset-0"><span class="lessonsGo__titleMore">Եվ այս ամենը բոլորը չէ</span>
+          <p class="lessonsGo__textMore">Մենք անում ենք ամեն ինչ, որ Ձեր ուսումնառությունը մեզ մոտ անցնի հետաքրքիր և արդյունավետ։ Սա ուղղակի զբաղմունք չէ, այլ մի ողջ համակարգ, որը կառուցվում է Ձեր և Ձեր գիտելիքների շուրջ։</p><a class="lessonsGo__btn btn" href="#">Գրանցվել</a>
+        </div>
+        <div class="col-lg-5 offset-lg-1 col-12 offset-0"><img class="leessonGo__pic" src="img/lessonsGo.png" alt="pic"></div>
+      </div>
+    </div>
+    <div class="container faq">
+      <h3 class="faq__title">Հաճախ տրվող հարցերի պատասխանները</h3>
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="faq__item question">
+            <div class="question__block">
+              <h2 class="question__title">Ինչպե՞ս են ընթանում դասընթացները՝ օնլայն թե օֆլայն։</h2><span class="question__arrow"></span>
+            </div>
+            <p class="question__answer" style="display: none;">Դասերն անցկացվում են միայն անցանց, մեր գրասենյակում: Մեր հիմնական նպատակն է հնարավորինս շատ տեղեկատվություն հաղորդել և վերապատրաստման առաջին իսկ օրերից, ուսանողների համար ստեղծել աշխատանքային մթնոլորտ և նրանց դրդել արդյունքների: Եվ ցավոք, անհնար է այս ամենը փոխանցել առցանց:</p>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="faq__item question">
+            <div class="question__block">
+              <h2 class="question__title">Ե՞րբ և ինչպե՞ս կարելի է վճարել ուսման համար։</h2><span class="question__arrow"></span>
+            </div>
+            <p class="question__answer" style="display: none;">
+              Վճարումը կարող է իրականացվել բանկի ցանկացած մասնաճյուղից, ինչպես նաև բջջային բանկի միջոցով ձեր հեռախոսից, եթե առկա է:
+              Անհրաժեշտ չէ վճարել վերապատրաստման 1 առաջին օրվա համար: Առաջին վճարումը պետք է կատարվի նախքան 3-րդ դասի մեկնարկը: Կարող եք վճարել ամբողջությամբ կամ մաս-մաս: Վճարման պայմանները նշված են պայմանագրում:
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="faq__item question">
+            <div class="question__block">
+              <h2 class="question__title">Շաբաթական քանի՞ պարապմունք է և որքա՞ն է յուրաքանչյուրի տևողությունը։</h2><span class="question__arrow"></span>
+            </div>
+            <p class="question__answer" style="display: none;">Դասընթացներն անցկացվում են շաբաթական 2 անգամ, տևողությունը ՝ 2.5-3 ժամ ՝ կախված թեմայից: ...</p>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="faq__item question">
+            <div class="question__block">
+              <h2 class="question__title">Եթե այլևս ցանկություն չունենամ մասնակցել դասընթացներին, կարո՞ղ եմ ետ վերցնել վճարված գումարը։</h2><span class="question__arrow"></span>
+            </div>
+            <p class="question__answer">Եթե վճարել եք դասընթացի համար, բայց մտքափոխվել եք կամ մասնակցել եք ընդամենը 2 դասի, ապա մենք կվերադարձնենք ձեր վճարած գումարը `հանած բանկի միջնորդավճարը 3-5%</p>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="faq__item question">
+            <div class="question__block">
+              <h2 class="question__title">Խմբում որքա՞ն ուսանող է ներգրավված։</h2><span class="question__arrow"></span>
+            </div>
+            <p class="question__answer" style="display: none;">Հարմարավետ ուսուցման համար յուրաքանչյուր խմբում 7-10 ուսանող է։</p>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="faq__item question">
+            <div class="question__block">
+              <h2 class="question__title">Դասընթացների համար անհրաժե՞շտ է սեփական notebook։</h2><span class="question__arrow"></span>
+            </div>
+            <p class="question__answer">Եթե Ձեր նոթբուքի վրա աշխատելն ավելի հարմար է, կարող եք այն բերել ձեզ հետ, բայց մենք համակարգիչներ ենք տրամադրում բոլորի համար:</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="//code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/script.js"></script>
   </body>
