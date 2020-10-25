@@ -20,30 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1029bcc4-94a3-4eaa-b13e-8fe61686bd65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/img/sprite/png/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/png/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/png/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/png/pig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/section/nav/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/section/payment/payment.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sprites.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/ilustration.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/nootubook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/callendar-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/cart.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/icon-callendar-clock.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/pig.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sprites.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sprites.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprites.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/script.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprites.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/btn/btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/btn/btn.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/wait/_wait.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/wait/_wait.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/wait/wait.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/wait/wait.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mixins/_sprites.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mixins/_sprites.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/payment/payment.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/payment/payment.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +59,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/img/sprite/png" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,7 +90,13 @@
       <workItem from="1603317182441" duration="1350000" />
       <workItem from="1603318644144" duration="684000" />
       <workItem from="1603352345899" duration="22664000" />
-      <workItem from="1603549675462" duration="19338000" />
+      <workItem from="1603549675462" duration="20087000" />
+      <workItem from="1603633643402" duration="296000" />
+      <workItem from="1603633956090" duration="182000" />
+      <workItem from="1603634170355" duration="152000" />
+      <workItem from="1603637087998" duration="718000" />
+      <workItem from="1603641046846" duration="1274000" />
+      <workItem from="1603643380272" duration="1874000" />
     </task>
     <servers />
   </component>
@@ -122,10 +119,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603318638843">
+    <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603634083576">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1603318638843" />
+    <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1603634083576" />
     <state x="491" y="28" width="618" height="870" key="find.popup" timestamp="1603581274118">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
