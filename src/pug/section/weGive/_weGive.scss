@@ -1,0 +1,77 @@
+.weGive {
+  background: $color-selago;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  &__block {
+
+  }
+  &__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &:nth-child(2){
+      margin: 40px 0;
+    }
+    @media (max-width: 540px) {
+      flex-direction: column;
+    }
+  }
+
+  &__iconBg {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: $color-zircon;
+    width: 85px;
+    height: 85px;
+    min-width: 85px;
+    border-radius: 50%;
+  }
+
+  &__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  &__desc {
+    margin-left: 42px;
+    @media (max-width: 540px) {
+      margin-left: 0;
+    }
+  }
+
+  &__subtitle {
+    font-family: $font-family-mardoto;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $color-blueZodiac;
+    @media (max-width: 540px) {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+  }
+  &__text {
+    font-family: $font-family-mardoto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-blueZodiac;
+    @media (max-width: 540px) {
+      font-size: 14px;
+    }
+  }
+
+  &__btn {
+    margin-top: 20px;
+  }
+
+  &__img {
+    width: 100%;
+    @media (max-width: 992px) {
+      display: none;
+    }
+  }
+
+}

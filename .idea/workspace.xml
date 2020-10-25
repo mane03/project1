@@ -20,21 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1029bcc4-94a3-4eaa-b13e-8fe61686bd65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/education.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/weGive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-education.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-outline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/weGive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/section/weGive/_weGive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/section/weGive/weGive.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/ilustration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/nootubook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/callendar-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/cart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/icon-callendar-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/pig.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sprites.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprites.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/payment/payment.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/payment/payment.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/choose/choose.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/choose/choose.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/header/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/program/program.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/program/program.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +67,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,14 +76,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/img/sprite/svg" />
       <recent name="$PROJECT_DIR$/build/img/sprite/png" />
       <recent name="$PROJECT_DIR$/src/img/sprite/png" />
-      <recent name="$PROJECT_DIR$/src/img/sprite/svg" />
-      <recent name="$PROJECT_DIR$/src/img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -96,7 +106,10 @@
       <workItem from="1603634170355" duration="152000" />
       <workItem from="1603637087998" duration="718000" />
       <workItem from="1603641046846" duration="1274000" />
-      <workItem from="1603643380272" duration="1874000" />
+      <workItem from="1603643380272" duration="4216000" />
+      <workItem from="1603648768057" duration="177000" />
+      <workItem from="1603648960874" duration="16000" />
+      <workItem from="1603649457151" duration="5063000" />
     </task>
     <servers />
   </component>
@@ -119,10 +132,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603634083576">
+    <state x="486" y="265" width="618" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603648022326">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1603634083576" />
+    <state x="486" y="265" width="618" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1600.873@0.27.1600.873" timestamp="1603648022326" />
+    <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603648402815">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1603648402815" />
+    <state x="269" y="75" width="1022" height="737" key="SettingsEditor" timestamp="1603648903748">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="269" y="75" width="1022" height="737" key="SettingsEditor/0.27.1600.873@0.27.1600.873" timestamp="1603648903748" />
     <state x="491" y="28" width="618" height="870" key="find.popup" timestamp="1603581274118">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
