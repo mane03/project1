@@ -20,17 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1029bcc4-94a3-4eaa-b13e-8fe61686bd65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/cloud.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/education.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-outline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/outline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/weGive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-cloud.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-education.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-outline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/weGive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/section/weGive/_weGive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/section/weGive/weGive.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/signUp_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-scalendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-smallPeople.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-speople.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-sracete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/signUp_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-smallCalendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-smallPeople.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-smallRacket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/section/signUp/_signUp.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/section/signUp/signUp.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
@@ -38,10 +40,8 @@
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprites.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/choose/choose.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/choose/choose.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/header/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/program/program.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/program/program.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/weGive/_weGive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/weGive/_weGive.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +109,7 @@
       <workItem from="1603643380272" duration="4216000" />
       <workItem from="1603648768057" duration="177000" />
       <workItem from="1603648960874" duration="16000" />
-      <workItem from="1603649457151" duration="5063000" />
+      <workItem from="1603649457151" duration="12413000" />
     </task>
     <servers />
   </component>

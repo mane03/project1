@@ -1,0 +1,106 @@
+.signUp {
+  background:$color-selago;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 5px;
+  //display: flex;
+
+  &__images {
+    position: relative;
+  }
+
+  &__img {
+    position: absolute;
+    right: 0;
+    //width: 100%;
+    bottom: 0;
+    //transform: translateX(71%);
+    width: 55%;
+  }
+
+  &__inputs {
+    position: absolute;
+
+  }
+}
+
+
+
+.info {
+
+  &__title {
+    font-family: $font-family-mardoto;
+    font-size: 48px;
+    line-height: 58px;
+    color: $color-blueZodiac;
+  }
+  &__day {
+    font-family: $font-family-mardoto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: $color-blueZodiac;
+  }
+  &__cost {
+    margin: 10px 0;
+    font-family: $font-family-mardoto;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-purpleheart;
+  }
+  &__price {
+    font-family: $font-family-mardoto;
+    color: $color-purpleheart;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  &__lists {
+    display: flex;
+    flex-direction: row;
+    margin-top: 23px;
+    margin-bottom: 40px;
+  }
+  &__desc {
+    font-family: $font-family-mardoto;
+    font-size: 24px;
+    line-height: 36px;
+    color: $color-blueZodiac;
+  }
+  &__question {
+    font-family: $font-family-mardoto-light;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-blueZodiac;
+  }
+  &__link {
+    color: $color-curiousBlue;
+  }
+}
+
+.list {
+  &__first {
+
+  }
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-blueZodiac;
+    &:nth-child(2) {
+      margin: 26px 0;
+    }
+  }
+
+  &__icon {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    margin-right: 13px;
+  }
+
+
+
+}

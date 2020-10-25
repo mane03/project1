@@ -1,0 +1,45 @@
+.container-fluid.signUp
+    .container
+        .row.signUp__info.info
+            .col-xl-5
+                h2.info__title Front End Developer: Code Your Life
+                p.info__day 06․06․2020
+                p.info__cost Արժեքը՝
+                p.info__price 60 000 AMD
+                .info__lists.list
+                    ul.list__first
+                        li.list__item
+                            +svg('icon-right').list__icon
+                            |Առանց կանխավճարի
+                        li.list__item
+                            +svg('icon-right').list__icon
+                            |Մասնակի վճարում
+                        li.list__item
+                            +svg('icon-right').list__icon
+                            |Մաս-մաս վճարման հնարավորություն
+                    ul.list__secound
+                        li.list__item
+                            +svg('icon-smallCalendar').list__icon
+                            |Տևողությունը 1․5 ամիս
+                        li.list__item
+                            +svg('icon-smallRacket').list__icon
+                            |Մեկնարկը 15 օրից
+                        li.list__item
+                            +svg('icon-smallPeople').list__icon
+                            |Մնացել է ընդամենը 3 տեղ
+                p.info__desc Ունե՞ք հարցեր․․․
+                p.info__question Զանգահարեք մեզ +37455751777 կամ
+                    a.info__link(href='#')  գրեք հաղորդագրություն
+    .row
+        .signUp__images
+            img.signUp__img(src='img/signUp_img.png')
+        .signUp__inputs
+            h2.signUp__title Դասընթացների գրանցում
+            p.signUp__text Լրացրեք ֆորման, որպեսզի անցնեք հաջորդ քայլին
+            form.signUp__form.form(method='get' action='#')
+                input.form__input(name='name' type='text' placeholder=' Անուն ազգանուն')
+                input.form__input(name='e-mail'  type='email' placeholder='E-mail')
+                input.form__input(name='tel' type='tel' placeholder='Հեռախոսահամար')
+                button.form__btn.btn(type='submit') Ամրագրել տեղ
+            p.signUp__desc Սեղմելով այս կոճակին՝ ես ընդունում եմ բոլոր պայմանները
+
