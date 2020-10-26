@@ -8,6 +8,10 @@
     text-align: center;
     color: $color-blueZodiac;
     margin-bottom: 50px;
+    @media (max-width: 576px) {
+      font-size: 31px;
+      line-height: 42px;
+    }
   }
   &__item {
     display: flex;

@@ -20,27 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1029bcc4-94a3-4eaa-b13e-8fe61686bd65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/img/signUp-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/signUp-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/section/aboutUs/_aboutUs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/section/aboutUs/aboutUs.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/cloud.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/education.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/icon-scalendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/icon-smallracket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/icon-speople.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/icon-sracete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprite/svg/outline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sprites.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprites.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/choose/_choose.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/choose/_choose.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/section/faq/_faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/faq/_faq.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/program/_program.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/program/_program.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/section/signUp/_signUp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/signUp/_signUp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/signUp/signUp.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/signUp/signUp.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/wait/_wait.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/wait/_wait.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,5 +148,9 @@
       <screen x="0" y="27" width="1600" height="873" />
     </state>
     <state x="464" y="207" key="run.anything.popup/0.27.1600.873@0.27.1600.873" timestamp="1603353787701" />
+    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1603742824709">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="463" y="214" width="672" height="678" key="search.everywhere.popup/0.27.1600.873@0.27.1600.873" timestamp="1603742824709" />
   </component>
 </project>

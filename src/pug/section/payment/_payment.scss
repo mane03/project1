@@ -29,6 +29,10 @@
       line-height: 48px;
       margin-bottom: 45px;
     }
+    @media (max-width: 576px) {
+      font-size: 31px;
+      line-height: 42px;
+    }
   }
   &__box {
     display: flex;

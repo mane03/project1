@@ -9,8 +9,9 @@
 		text-align: center;
 		color: #10233e;
 
-		@media (max-width: 550px) {
-			font-size: 40px;
+		@media (max-width: 576px) {
+			font-size: 31px;
+			line-height: 42px;
 		}
 	}
 

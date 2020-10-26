@@ -2,14 +2,17 @@
 	margin: 0 auto;
 
 	&__title {
+		font-family: $font-family-mardoto;
 		margin-top: 100px;
 		margin-bottom: 20px;
-		font-weight: normal;
-		font-style: normal;
 		font-size: 48px;
 		line-height: 58px;
 		text-align: center;
-		color: #10233e;
+		color: $color-blueZodiac;
+		@media  (max-width: 576px) {
+			font-size: 31px;
+			line-height: 42px;
+		}
 	}
 
 	&__box {
@@ -17,7 +20,7 @@
 		flex-direction: row;
 		margin-top: 30px;
 		margin-bottom: 30px;
-		border: 1px solid #d8dbe6;
+		border: 1px solid $color-mischka;
 		border-radius: 4px;
 		align-items: center;
 		padding-left: 20px;
@@ -32,9 +35,9 @@
 	}
 
 	&__number {
+		font-family: $font-family-mardoto;
 		margin-top: 5px;
 		font-weight: bold;
-		font-style: normal;
 		font-size: 72px;
 		line-height: 86px;
 		color: rgba(116, 39, 230, 0.4);
@@ -45,18 +48,20 @@
 	}
 
 	&__description {
+		font-family: $font-family-mardoto;
 		display: flex;
 		flex-direction: column;
 		margin-left: 20px;
 	}
 
 	&__name {
+		font-family: $font-family-mardoto;
 		margin-bottom: 10px;
 		font-weight: 600;
 		font-style: normal;
 		font-size: 18px;
 		line-height: 27px;
-		color: #10233e;
+		color: $color-blueZodiac;
 		@media (max-width: 390px) {
 			font-size: 16px;
 			margin-bottom: 5px;
@@ -65,11 +70,12 @@
 	}
 
 	&__text {
+		font-family: $font-family-mardoto;
 		font-weight: 300;
 		font-style: normal;
 		font-size: 16px;
 		line-height: 24px;
-		color: #10233e;
+		color: $color-blueZodiac;
 		@media (max-width: 390px) {
 			font-size: 14px;
 			line-height: 20px;
@@ -82,36 +88,26 @@
 	}
 
 	&__titleMore {
+		font-family: $font-family-mardoto;
 		display: flex;
 		margin-top: 12px;
 		margin-bottom: 20px;
-		font-weight: normal;
-		font-style: normal;
 		font-size: 36px;
 		line-height: 54px;
-		color: #10233e;
+		color: $color-blueZodiac;
 	}
 
 	&__textMore {
+		font-family: $font-family-mardoto;
 		font-weight: 300;
-		font-style: normal;
 		font-size: 16px;
 		line-height: 24px;
-		color: #10233e;
+		color: $color-blueZodiac;
 	}
 
 	&__btn {
-		display: inline-block;
 		margin-top: 30px;
-		border-radius: 26px;
-		padding: 10px 30px;
-		font-weight: bold;
-		font-style: normal;
-		font-size: 16px;
-		line-height: 24px;
-		text-align: center;
-		color: #fff;
-		background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
+		margin-bottom: 30px;
 	}
 	&__img {
 		width: 100%;
