@@ -20,22 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1029bcc4-94a3-4eaa-b13e-8fe61686bd65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pug/section/aboutUs/_aboutUs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/section/aboutUs/aboutUs.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-clock2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-phone2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/sprite/svg/icon-telegrambg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-clock2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-fb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-phone2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sprite/svg/icon-telegrambg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/section/footer/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/section/footer/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sprites.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprites.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/sprites.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/choose/_choose.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/choose/_choose.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/faq/_faq.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/faq/_faq.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/lessonsGo/lessonsGo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/payment/_payment.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/program/_program.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/program/_program.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/aboutUs/aboutUs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/aboutUs/aboutUs.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/section/header/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/header/header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/section/signUp/_signUp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/signUp/_signUp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/section/wait/_wait.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/section/wait/_wait.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img/sprite/svg" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,8 +87,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/img/sprite/svg" />
+      <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/build/img/sprite/png" />
       <recent name="$PROJECT_DIR$/src/img/sprite/png" />
     </key>
@@ -128,10 +140,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="486" y="265" width="618" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603648022326">
+    <state x="486" y="265" width="618" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603747477405">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
-    <state x="486" y="265" width="618" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1600.873@0.27.1600.873" timestamp="1603648022326" />
+    <state x="486" y="265" width="618" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1600.873@0.27.1600.873" timestamp="1603747477405" />
     <state x="583" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603648402815">
       <screen x="0" y="27" width="1600" height="873" />
     </state>
