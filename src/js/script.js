@@ -1,3 +1,18 @@
+$(".menu").click(function (e) {
+	e.preventDefault(), $(this).toggleClass("is-active"),
+		$(".nav").toggleClass("opened"), $("html").toggleClass("overflow");
+	$(".nav__link").click(function (e) {
+		e.preventDefault();
+		if ($(window).width() <= 991) {
+			$(".header__nav").removeClass("opened");
+			$("html").removeClass("overflow");
+			$(".menu").removeClass("is-active");
+		}
+	})
+})
+
+
+
 $('.question__block').click(function () {
 	let container = $(this).parents('.question');
 	let answer = container.find('.question__answer');
@@ -20,27 +35,12 @@ $('.question__block').click(function () {
 
 
 
-$(".menu").click(function (e) {
-	e.preventDefault(), $(this).toggleClass("is-active"),
-		$(".nav").toggleClass("opened"), $("html").toggleClass("overflow");
-	$(".nav__link").click(function (e) {
-		e.preventDefault();
-		if ($(window).width() <= 991) {
-			$(".header__nav").removeClass("opened");
-			$("html").removeClass("overflow");
-			$(".menu").removeClass("is-active");
-		}
-	})
-})
-
-
-
 jQuery(document).ready(($) => {
 	$('.accordion__block').click(function () {
 		$(this).find('.accordion__close').toggleClass('open');
 		$(this)
 			.next('.accordion__open')
 			.slideToggle('fast', () => {
-				// Do something maybe ..
+
 			});
 	})})
