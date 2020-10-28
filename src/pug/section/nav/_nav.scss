@@ -83,11 +83,11 @@
       opacity: 0;
     }
     &:nth-child(1) {
-      background: #7427e7;
+      background: $color-robinsEggBlue;
       transform: translateY(8px) rotate(45deg);
     }
     &:nth-child(3) {
-      background: #7427e7;
+      background: $color-robinsEggBlue;
       transform: translateY(-8px) rotate(-45deg);
     }
   }

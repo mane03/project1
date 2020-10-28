@@ -111,8 +111,7 @@
   }
 
   &__title {
-    font-family: $font-family-mardoto;
-    font-weight: bold;
+    font-family: $font-family-mardoto-bold;
     font-size: 64px;
     line-height: 77px;
     color: $color-blueZodiac;
@@ -134,8 +133,7 @@
   }
 
   &__text {
-    font-family: $font-family-mardoto;
-    font-weight: 300;
+    font-family: $font-family-mardoto-light;
     font-size: 17px;
     line-height: 25px;
     color: $color-blueZodiac;
@@ -192,8 +190,8 @@
     background: transparent;
     margin-left: 40px;
     &:hover {
-      background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
-      color: #fff;
+      background: linear-gradient(90deg, $color-robinsEggBlue 0%, $royal-blue 47.61%, $color-robinsEggBlue 100%);
+      color: $color-white;
       transition: .5s;
     }
     @media (max-width: 550px) {

@@ -1,5 +1,6 @@
 .aboutUs {
     margin-top: 100px;
+
   &__title {
     font-family: $font-family-mardoto;
     font-size: 48px;
@@ -14,10 +15,10 @@
   }
 
   &__item {
-    background: $white;
+    background: $color-white;
     box-shadow: 10px 15px 60px rgba(131, 131, 133, 0.25);
     border-radius: 10px;
-    padding: 18px 40px 18px 40px;
+    padding: 18px 40px;
     position: relative;
     margin-bottom: 50px;
   }
@@ -36,7 +37,7 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: $white;
+    color: $color-white;
     background: $color-purpleheart;
     border-radius: 10px 0;
     padding: 10px 14px;

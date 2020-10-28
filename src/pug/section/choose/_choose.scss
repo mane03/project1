@@ -2,7 +2,9 @@
   background: $color-selago;
   padding-top: 110px;
   padding-bottom: 85px;
+
   &__title {
+    font-family: $font-family-mardoto;
     font-size: 48px;
     line-height: 58px;
     text-align: center;
@@ -19,7 +21,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: $white;
+    background: $color-white;
     box-shadow: 10px 15px 60px rgba(133, 134, 135, 0.25);
     border-radius: 20px;
     height: 300px;
@@ -31,8 +33,7 @@
   }
 
   &__subtitle {
-    font-family: $font-family-mardoto;
-    font-weight: 500;
+    font-family: $font-family-mardoto-bold;
     font-size: 24px;
     line-height: 36px;
     text-align: center;

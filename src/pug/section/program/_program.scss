@@ -3,13 +3,14 @@
 	width: 100%;
 
 	&__title {
+		font-family: $font-family-mardoto;
 		margin: 0;
 		font-weight: normal;
 		font-style: normal;
 		font-size: 48px;
 		line-height: 58px;
 		text-align: center;
-		color: #10233e;
+		color: $color-blueZodiac;
 
 		@media (max-width: 768px) {
 			font-size: 38px;
@@ -27,6 +28,7 @@
 	}
 
 	&__desc {
+		font-family: $font-family-mardoto;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		font-weight: 300;
@@ -34,7 +36,7 @@
 		font-size: 36px;
 		line-height: 54px;
 		text-align: center;
-		color: #10233e;
+		color: $color-blueZodiac;
 
 		@media (max-width: 992px) {
 			font-size: 25px;
@@ -64,11 +66,12 @@
 	}
 
 	&__item {
+		font-family: $font-family-mardoto;
 		font-weight: 600;
 		font-style: normal;
 		font-size: 18px;
 		line-height: 27px;
-		color: #10233e;
+		color: $color-blueZodiac;
 
 		@media (max-width: 992px) {
 			font-size: 13px;
@@ -92,7 +95,7 @@
 		width: 100%;
 		max-width: 580px;
 		box-shadow: 10px 15px 60px rgba(131, 131, 133, 0.25);
-		background: #fff;
+		background: $color-white;
 		cursor: pointer;
 
 		@media (max-width: 992px) {
@@ -123,6 +126,7 @@
 	}
 
 	&__num {
+		font-family: $font-family-mardoto;
 		display: flex;
 		align-items: center;
 		font-weight: 300;
@@ -141,12 +145,13 @@
 	}
 
 	&__lesson {
+		font-family: $font-family-mardoto;
 		margin-left: 10px;
 		font-weight: 300;
 		font-style: normal;
 		font-size: 16px;
 		line-height: 24px;
-		color: #7427e6;
+		color: $color-robinsEggBlue;
 
 		@media (max-width: 407px) {
 			font-size: 13px;
@@ -158,12 +163,13 @@
 	}
 
 	&__title {
+		font-family: $font-family-mardoto;
 		margin-top: 30px;
 		font-weight: 500;
 		font-style: normal;
 		font-size: 24px;
 		line-height: 36px;
-		color: #10233e;
+		color: $color-blueZodiac;
 
 		@media (max-width: 1360px) {
 			font-size: 20px;
@@ -189,13 +195,13 @@
 		font-weight: 100;
 		font-size: 40px;
 		line-height: 0;
-		color: #fff;
-		background: #7427e6;
+		color: $color-white;
+		background: $color-robinsEggBlue;
 		transform: translateY(0) rotate(45deg);
 
 		&.open {
 			border: 1px solid #7427e6;
-			color: #7427e6;
+			color: $color-robinsEggBlue;
 			background: none;
 			transform: rotate(0deg);
 		}
@@ -208,13 +214,14 @@
 	}
 
 	&__desc {
+		font-family: $font-family-mardoto;
 		display: flex;
 		align-items: center;
 		margin: 0;
 		font-weight: 300;
 		font-size: 16px;
 		line-height: 24px;
-		color: #10233e;
+		color: $color-blueZodiac;
 
 		&::before {
 			content: "";
@@ -224,7 +231,7 @@
 			width: 5px;
 			height: 5px;
 			min-width: 5px;
-			background: #858484;
+			background: $color-gray;
 		}
 
 		@media (max-width: 400px) {

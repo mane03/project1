@@ -3,9 +3,9 @@
 	font-size: 16px;
 	line-height: 24px;
 	text-align: center;
-	color: #fff;
+	color: $color-white;
 	cursor: pointer;
 	padding: 10px 30px;
 	display: inline-flex;
-	background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
+	background: linear-gradient(90deg, $color-robinsEggBlue 0%, $royal-blue 47.61%, $color-robinsEggBlue 100%);
 }

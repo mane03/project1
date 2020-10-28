@@ -2,7 +2,7 @@
   padding-top: 130px;
   margin-bottom: 350px;
   height: 408px;
-  background: linear-gradient(90deg, #0EC1CC 0%, #3A75D9 47.61%, #7427E6 100%);
+  background: linear-gradient(90deg, $color-robinsEggBlue 0%, $royal-blue 47.61%, $color-robinsEggBlue 100%);
   @media (max-width: 992px) {
     height: 200%;
     padding-top: 85px;
@@ -23,7 +23,7 @@
     font-size: 48px;
     line-height: 58px;
     text-align: center;
-    color: $white;
+    color: $color-white;
     @media (max-width: 602px) {
       font-size: 38px;
       line-height: 48px;
@@ -40,7 +40,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    background: $white;
+    background: $color-white;
     box-shadow: 10px 15px 60px rgba(133, 134, 135, 0.25);
     border-radius: 30px;
     height: 300px;
@@ -92,7 +92,7 @@
     background: transparent;
     margin-left: 40px;
     &:hover {
-      background: linear-gradient(90deg, #0ec1cc 0%, #3a75d9 47.61%, #7427e6 100%);
+      background: linear-gradient(90deg, $color-robinsEggBlue 0%, $royal-blue 47.61%, $color-robinsEggBlue 100%);
       color: #fff;
       transition: .5s;
     }

@@ -4,7 +4,7 @@
   padding-bottom: 30px;
 
   &__inputs {
-    background: #C0BFF6;
+    background: $color-perfume;
     border-radius: 45px;
     padding: 30px 90px;
     @media (max-width: 560px) {
@@ -53,16 +53,14 @@
         font-size: 13px;
       }
     }
-
 }
-
 
 .form {
   text-align: center;
 
 
   &__input {
-    background: #F8FBFD;
+    background: $color-aqua-spring;
     border-radius: 5px;
     border: none;
     width: 100%;
@@ -76,12 +74,10 @@
   }
   &__btn {
     margin-bottom: 38px;
-    background: #288DD5;
+    background: $color-curiousBlue;
     border: none;
   }
 }
-
-
 
 .info {
   align-items: center;
@@ -141,9 +137,6 @@
 }
 
 .list {
-  &__first {
-
-  }
   &__item {
     display: inline-flex;
     align-items: center;
@@ -157,7 +150,6 @@
         margin: 5px 0;
       }
     }
-
   }
 
   &__icon {
@@ -166,9 +158,4 @@
     height: 30px;
     margin-right: 13px;
   }
-
-}
-
-@media (max-width: 423px) {
-  
 }
